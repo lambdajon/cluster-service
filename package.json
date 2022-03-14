@@ -1,0 +1,23 @@
+{
+  "name": "cluster-service",
+  "version": "1.0.0",
+  "description": "Simple cluster service in nodejs",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akhmadiy/cluster-service.git"
+  },
+  "engines": {
+    "node": ">=12.22.1"
+  },
+  "keywords": ["node", "cluster"],
+  "author": "Akhmadiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akhmadiy/cluster-service/issues"
+  },
+  "homepage": "https://github.com/akhmadiy/cluster-service#readme"
+}
