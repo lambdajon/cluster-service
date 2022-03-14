@@ -1,0 +1,146 @@
+## JetBrains IDE
+.idea
+
+#################
+### Artifacts ###
+#################
+.DS_Store
+artifacts
+.ansible
+.history
+
+**/artifacts
+**/.ansible
+
+# VIM
+.vim/plugged
+.vim/.netrwhist
+.vim/autoload/plug.vim
+
+# nano
+.nano/search_history
+
+
+#################
+#####  Logs #####
+#################
+
+logs
+.log
+*.log
+*-debug.log*
+
+#################
+#  Runtime data #
+#################
+
+pids
+*.pid
+*.seed
+*.pid.lock
+
+#################
+### Coverages ###
+#################
+
+lib-cov
+**/lib-cov
+
+coverage
+**/coverage
+
+.nyc_output
+**/.nyc_output
+
+#################
+#### Cachings ###
+#################
+
+.grunt
+.npm
+.pnp
+.eslintcache
+.cache
+.webpack
+.vercel
+.now
+.next
+.serverless
+.docz
+.snap
+__snapshots__
+tmp
+styleguide/
+
+## Make sure subfolders also does not exist
+**/.grunt
+**/.npm
+**/.pnp
+**/.eslintcache
+**/.cache
+**/.webpack
+**/.vercel
+**/.now
+**/.next
+**/.serverless
+**/.docz
+**/.snap
+**/__snapshots__
+**/tmp
+**/styleguide/
+
+#################
+#### Modules ####
+#################
+
+bower_components
+node_modules
+jspm_packages
+
+## Make sure subfolders also does not exist
+**/bower_componets
+**/node_modules
+**/jspm_packages
+
+# Output of 'npm pack'
+*.tgz
+
+# Optional REPL history
+.node_repl_history
+
+# PNP dependencies
+.pnp.js
+
+#################
+### Lockfiles ###
+#################
+
+.lock-wscript
+.yarn-integrity
+
+#################
+### Security ####
+#################
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
+## NPM Security file
+.npmrc
+
+#################
+## Build files ##
+#################
+
+cjs
+dist
+build/Release
+functions-build
+
+## Make sure subfolders also does not exist
+
+
