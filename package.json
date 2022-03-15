@@ -4,6 +4,8 @@
   "description": "Simple cluster service in nodejs",
   "main": "",
   "scripts": {
+    "lint": "eslint \"{src,test}/**/*.{js,ts}\" --fix",
+    "format": "prettier --write \"*.{js,ts}\" ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -13,11 +15,24 @@
   "engines": {
     "node": ">=12.22.1"
   },
-  "keywords": ["node", "cluster"],
+  "keywords": [
+    "node",
+    "cluster"
+  ],
   "author": "Akhmadiy",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/akhmadiy/cluster-service/issues"
   },
-  "homepage": "https://github.com/akhmadiy/cluster-service#readme"
+  "homepage": "https://github.com/akhmadiy/cluster-service#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.1",
+    "@commitlint/config-conventional": "^16.2.1",
+    "commitlint": "^16.2.1",
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "husky": "^7.0.4",
+    "prettier": "^2.5.1"
+  }
 }
