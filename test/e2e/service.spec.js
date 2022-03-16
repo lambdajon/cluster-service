@@ -4,10 +4,7 @@ const { spawn } = require('child_process');
 
 describe('Service tests', () => {
   it('should start simple service', (done) => {
-    const simpleService = path.join(
-      __dirname,
-      '../mocks/simpleService.js'
-    );
+    const simpleService = path.join(__dirname, '../mocks/simpleService.js');
 
     const testApp = spawn('node', [simpleService]);
 
