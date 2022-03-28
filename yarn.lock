@@ -293,7 +293,7 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@commitlint/cli@^16.2.1", "@commitlint/cli@^16.2.3":
+"@commitlint/cli@^16.2.3":
   version "16.2.3"
   resolved "https://registry.yarnpkg.com/@commitlint/cli/-/cli-16.2.3.tgz#6c250ce7a660a08a3ac35dd2ec5039421fb831df"
   integrity sha512-VsJBQLvhhlOgEfxs/Z5liYuK0dXqLE5hz1VJzLBxiOxG31kL/X5Q4OvK292BmO7IGZcm1yJE3XQPWSiFaEHbWA==
@@ -1633,10 +1633,10 @@ eslint-visitor-keys@^3.3.0:
   resolved "https://registry.npmjs.org/eslint-visitor-keys/-/eslint-visitor-keys-3.3.0.tgz"
   integrity sha512-mQ+suqKJVyeuwGYHAdjMFqjCyfl8+Ldnxuyp3ldiMBFKkvytrXUZWaiPCEav8qDHKty44bD+qV1IP4T+w+xXRA==
 
-eslint@^8.11.0:
-  version "8.11.0"
-  resolved "https://registry.npmjs.org/eslint/-/eslint-8.11.0.tgz"
-  integrity sha512-/KRpd9mIRg2raGxHRGwW9ZywYNAClZrHjdueHcrVDuO3a6bj83eoTirCCk0M0yPwOjWYKHwRVRid+xK4F/GHgA==
+eslint@^8.12.0:
+  version "8.12.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-8.12.0.tgz#c7a5bd1cfa09079aae64c9076c07eada66a46e8e"
+  integrity sha512-it1oBL9alZg1S8UycLm5YDMAkIhtH6FtAzuZs6YvoGVldWjbS08BkAdb/ymP9LlAyq8koANu32U7Ib/w+UNh8Q==
   dependencies:
     "@eslint/eslintrc" "^1.2.1"
     "@humanwhocodes/config-array" "^0.9.2"
